@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "B66C66EC-C7D7-44C0-A7FD-5E623F003F7D",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "selectedTests" : [
+        "MyAppUITests\/testExample()",
+        "MyAppUITests\/testLaunchPerformance()",
+        "MyAppUITestsLaunchTests\/testLaunch()"
+      ],
+      "target" : {
+        "containerPath" : "container:MyApp.xcodeproj",
+        "identifier" : "E921DC542CFF2A70009271DB",
+        "name" : "MyAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

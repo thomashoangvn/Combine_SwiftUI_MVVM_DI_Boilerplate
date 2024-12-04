@@ -32,6 +32,8 @@
 		E921DC4B2CFF2A70009271DB /* MyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E921DC552CFF2A70009271DB /* MyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E921DC7A2CFF2CBF009271DB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E93B3F0D2D00404C001ABA45 /* MyAppUITests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MyAppUITests.xctestplan; sourceTree = "<group>"; };
+		E93B3F342D00430B001ABA45 /* MyAppTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MyAppTests.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -70,7 +72,9 @@
 			children = (
 				E921DC3D2CFF2A6D009271DB /* MyApp */,
 				E921DC4E2CFF2A70009271DB /* MyAppTests */,
+				E93B3F342D00430B001ABA45 /* MyAppTests.xctestplan */,
 				E921DC582CFF2A70009271DB /* MyAppUITests */,
+				E93B3F0D2D00404C001ABA45 /* MyAppUITests.xctestplan */,
 				E921DC3C2CFF2A6D009271DB /* Products */,
 				E921DC7A2CFF2CBF009271DB /* README.md */,
 			);

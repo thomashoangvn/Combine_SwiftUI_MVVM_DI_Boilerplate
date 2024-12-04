@@ -1,0 +1,43 @@
+{
+  "configurations" : [
+    {
+      "id" : "37D2E8FA-CEFE-4D99-9AC3-140FF325A8D8",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "selectedTests" : {
+        "suites" : [
+          {
+            "name" : "MyAppTests",
+            "testFunctions" : [
+              "example()"
+            ]
+          }
+        ],
+        "xctestClasses" : [
+          {
+            "name" : "MyAppTests",
+            "xctestMethods" : [
+              "example()"
+            ]
+          }
+        ]
+      },
+      "target" : {
+        "containerPath" : "container:MyApp.xcodeproj",
+        "identifier" : "E921DC4A2CFF2A70009271DB",
+        "name" : "MyAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}
