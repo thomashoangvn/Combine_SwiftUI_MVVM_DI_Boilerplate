@@ -1,30 +1,33 @@
-# Combine SwiftUI MVVM Dependency Injection 
+# Combine SwiftUI MVVM Dependency Injection
 
-A boilerplate demonstrates how to use combine and MVVM in the SwiftUI app.
+A sample code snippet demonstrating how to use Combine and MVVM in a SwiftUI app with GitHubService api get using Dependency Injection.
 
-# Structure
+## Structure
 
-ProjectRoot/
-├── Models/
-│   └── User.swift
-├── ViewModels/
-│   └── UserViewModel.swift
-├── Views/
-│   ├── UserListView.swift
-│   └── UserDetailView.swift
-└── Services/
-    └── UserService.swift
+    ```bash
+    ProjectRoot/
+    ├── Models/
+    │   └── User.swift
+    ├── ViewModels/
+    │   └── UserViewModel.swift
+    ├── Views/
+    │   ├── UserListView.swift
+    │   └── UserDetailView.swift
+    └── Services/
+        └── UserService.swift
+    ```
 
-# Build Tools & Version
+## Build Tools & Version
 
-Xcode 15.3 
-
-iOS 15.6+
+    ```bash
+    Xcode 15.3
+    iOS 15.6+
+    ```
 
 ## Contributing
 
-We appreciate your interest in contributing to 'Combine SwiftUI MVVM Dependency Injection' . Feel free to open issues or submit pull requests.
+We appreciate your interest in contributing to 'Combine SwiftUI MVVM Dependency Injection'. Feel free to open issues or submit pull requests.
 
 ## License
 
-This project is licensed under the [BSD-4-Clause License](LICENSE).
+This project is licensed under the [License](LICENSE).
