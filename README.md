@@ -5,23 +5,27 @@ A sample code snippet demonstrating how to use Combine and MVVM in a SwiftUI app
 ## Structure
 
     ```bash
+
     ProjectRoot/
     ├── Models/
-    │   └── User.swift
+    │   └── GitHubRepository.swift
     ├── ViewModels/
-    │   └── UserViewModel.swift
+    │   └── GitHubListViewModel.swift
     ├── Views/
-    │   ├── UserListView.swift
-    │   └── UserDetailView.swift
+    │   ├── GitHubListView.swift
+    │   └── DetailRepositoryView.swift
     └── Services/
-        └── UserService.swift
+        └── GitHubService.swift
+
     ```
 
 ## Build Tools & Version
 
     ```bash
+
     Xcode 15.3
     iOS 15.6+
+
     ```
 
 ## Contributing
